@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuhao Guo - Personal Homepage</title>
+    <style>
+        /* 基础全局样式 */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; line-height: 1.6; color: #2d3748; background-color: #f7fafc; padding: 30px 15px; }
+        .container { max-width: 850px; margin: 0 auto; background: #ffffff; padding: 45px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        
+        /* 头部样式 */
+        header { border-bottom: 2px solid #edf2f7; padding-bottom: 25px; margin-bottom: 30px; }
+        h1 { font-size: 2.2rem; color: #1a202c; letter-spacing: -0.5px; margin-bottom: 6px; }
+        .title-sub { font-size: 1.1rem; color: #4a5568; font-weight: 500; margin-bottom: 12px; }
+        .contact-info { display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.95rem; color: #718096; margin-top: 10px; }
+        .contact-info a { color: #2b6cb0; text-decoration: none; font-weight: 500; }
+        .contact-info a:hover { text-decoration: underline; }
+
+        /* 区块标题 */
+        section { margin-bottom: 35px; }
+        h2 { font-size: 1.35rem; color: #2d3748; border-left: 4px solid #3182ce; padding-left: 12px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
+        
+        /* 条目列表样式 */
+        .item { margin-bottom: 22px; }
+        .item-header { display: flex; justify-content: space-between; align-items: baseline; font-weight: 600; font-size: 1.05rem; color: #1a202c; }
+        .item-sub { display: flex; justify-content: space-between; font-style: italic; color: #4a5568; font-size: 0.95rem; margin-top: 2px; margin-bottom: 6px; }
+        ul { padding-left: 20px; color: #4a5568; font-size: 0.95rem; }
+        li { margin-bottom: 5px; }
+        
+        /* 技能 & 荣誉样式 */
+        .skills-list, .honors-list { list-style-type: square; padding-left: 20px; color: #4a5568; font-size: 0.95rem; }
+        .skills-list li, .honors-list li { margin-bottom: 8px; }
+
+        /* 按钮设计 */
+        .btn { display: inline-block; background: #3182ce; color: #ffffff; padding: 10px 22px; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 10px; transition: background 0.2s; }
+        .btn:hover { background: #2b6cb0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 个人头部信息 -->
+    <header>
+        <h1>Yuhao Guo (郭羽皓)</h1>
+        <p class="title-sub">Undergraduate Student in Mathematics | Washington University in St. Louis</p>
+        <div class="contact-info">
+            <span>📧 Email: <a href="mailto:guoyh2006@outlook.com">guoyh2006@outlook.com</a></span>
+            <span>📞 Tel: +1-(614)517-9224 / +86-15957198076</span>
+            <span>📍 Location: St. Louis, MO, U.S.</span>
+        </div>
+    </header>
+
+    <!-- 教育背景 (Education) -->
+    <section>
+        <h2>Education</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Washington University in St. Louis</span>
+                <span>St. Louis, U.S.</span>
+            </div>
+            <div class="item-sub">
+                <span>Undergraduate Student</span>
+                <span>08/2026 – Present</span>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Ohio State University</span>
+                <span>Columbus, U.S.</span>
+            </div>
+            <div class="item-sub">
+                <span>Bachelor of Science in Mathematics | GPA: 3.966 / 4.0</span>
+                <span>08/2024 – 06/2026</span>
+            </div>
+            <ul>
+                <li>Dean’s List for Autumn 2024, Spring 2025, Autumn 2025, and Spring 2026 Semesters.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 研究与项目经历 (Research & Project Experiences) -->
+    <section>
+        <h2>Research & Project Experiences</h2>
+        
+        <div class="item">
+            <div class="item-header">
+                <span>Researcher — Bacteriophage Discovery & Genomic Analysis</span>
+                <span>Columbus, U.S.</span>
+            </div>
+            <div class="item-sub">
+                <span>Biological & Genomic Research</span>
+                <span>01/2026 – 04/2026</span>
+            </div>
+            <ul>
+                <li>Isolated and purified lytic bacteriophages using 3-phase streak protocols, achieving a high-titer stock concentration of 2.3 × 10⁷ PFU/mL.</li>
+                <li>Extracted genomic DNA and troubleshot low 260/230 purity ratios to optimize yield (52 ng/μL) for downstream applications.</li>
+                <li>Evaluated genomic architecture via restriction enzyme digestion (BamHI, EcoRI) and agarose gel electrophoresis.</li>
+                <li>Maintained detailed lab documentation and authored a comprehensive research report summarizing experimental findings and analytical logic.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Researcher — Chemistry Lab Research: Purification of Lead Iodide (PbI₂)</span>
+                <span>Columbus, U.S.</span>
+            </div>
+            <div class="item-sub">
+                <span>Chemical Synthesis & Optimization</span>
+                <span>09/2025 – 11/2025</span>
+            </div>
+            <ul>
+                <li>Synthesized PbI₂ and investigated an anomalous 128% yield by systematically testing purification methods.</li>
+                <li>Identified vacuum filtration as the optimal purification technique through experimental comparison.</li>
+                <li>Achieved a 98% yield, bridging theoretical knowledge with practical problem-solving.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Researcher — Physics Lab Research: Measuring Electric Charge</span>
+                <span>Columbus, U.S.</span>
+            </div>
+            <div class="item-sub">
+                <span>Electrostatic Repulsion Experiment</span>
+                <span>03/2025 – 04/2025</span>
+            </div>
+            <ul>
+                <li>Applied Coulomb's Law to design an experiment measuring electric charge by quantifying repulsion distance.</li>
+                <li>Performed precise data collection and error analysis to ensure measurement accuracy.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Team Leader & Researcher — Analysis of Stock Data Based on Clustering Method</span>
+                <span>Hangzhou, China</span>
+            </div>
+            <div class="item-sub">
+                <span>Financial Data Analytics</span>
+                <span>07/2022 – 08/2022</span>
+            </div>
+            <ul>
+                <li>Applied the AP clustering algorithm to analyze pre-IPO A-share stock data; wrote code to process financial data and categorized 69 stocks into 9 distinct clusters based on market performance.</li>
+                <li>Documented the analysis process and findings in a formal dissertation.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 实习经历 (Internship Experience) -->
+    <section>
+        <h2>Internship Experience</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>Marketing Analyst Intern — Shenzhen Yitong Investment Co., Ltd</span>
+                <span>Shanghai, China</span>
+            </div>
+            <div class="item-sub">
+                <span>Shanghai Office</span>
+                <span>05/2025 – 06/2025</span>
+            </div>
+            <ul>
+                <li>Assisted in composing a comprehensive market analysis report on Yiwu Small Commodity City for institutional investment research.</li>
+                <li>Systematically researched and analyzed business segments, financial data, and competitive advantages to support investment decisions.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 荣誉与技能 (Awards & Technical Skills) -->
+    <section>
+        <h2>Skills & Honors</h2>
+        <ul class="skills-list">
+            <li><strong>Technical & Computer Skills:</strong> Java, MATLAB, Microsoft Office Suite.</li>
+            <li><strong>Languages:</strong> Chinese (Native), English (Fluent).</li>
+            <li><strong>Honors:</strong> Volunteer Certificate (Bali Anugerah Sejahtera Project, 2023), Certificate of Distinction - Top 20% (Australian Mathematics Competition, 2022), Second Prize - Top 25% (Waterloo Mathematics Contest, 2021).</li>
+        </ul>
+    </section>
+
+    <!-- PDF简历下载 -->
+    <section>
+        <h2>Full Resume</h2>
+        <p>Feel free to download my full Curriculum Vitae in PDF format below:</p>
+        <a href="Yuhao_Guo_Resume.pdf" class="btn" target="_blank">📄 Download PDF Resume</a>
+    </section>
+</div>
+
+</body>
+</html>
